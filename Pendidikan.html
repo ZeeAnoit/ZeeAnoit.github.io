@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #212529;
+        }
+
+        .table thead th {
+            background-color: #343a40; 
+            color: #fff; 
+        }
+        .table {
+            border-radius: 10px;
+        }
+
+        th {
+            text-align: center;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .text-center {
+
+          margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="Aboutme.HTML">PROFIL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Pendidikan.html">Pendidikan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Jadwal.html">Jadwal Kuliah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="buku_tamu.html">Buku Tamu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://tik.ft.unm.ac.id/index.php/profil">Website JTIK</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container my-5">
+    <h1 class="text-center">Daftar Pendidikan Saya</h1>
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Tingkat Pendidikan</th>
+                <th>Nama Sekolah / Universitas</th>
+                <th>Tahun Masuk</th>
+                <th>Tahun Kelulusan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Sekolah Dasar</td>
+                <td align="center">SD Negeri Unggulan Bontomanai</td>
+                <td align="center">2010</td>
+                <td align="center">2016</td>
+            </tr>
+            <tr>
+                <td align="center">Sekolah Menengah Pertama</td>
+                <td align="center">SMP Negeri 1 Bontomarannu</td>
+                <td align="center">2016</td>
+                <td align="center">2019</td>
+            </tr>
+            <tr>
+                <td align="center">Sekolah Menengah Atas</td>
+                <td align="center">SMA Negeri 8 Gowa</td>
+                <td align="center">2019</td>
+                <td align="center">2022</td>
+            </tr>
+            <tr>
+                <td align="center">Perguruan Tinggi</td>
+                <td align="center">Universitas Negeri Makassar</td>
+                <td align="center">2022</td>
+                <td align="center">-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
